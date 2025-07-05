@@ -1,4 +1,4 @@
-import FooterTitle from '../title/FooterTitle'
+import FooterTitle from '../title/Footertitle'
 import './footer.css'
 import Form from './form/Form'
 import InnerFooter from './innerFooter/InnerFooter'
