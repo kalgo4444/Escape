@@ -1,0 +1,10 @@
+.hero {
+	position: relative;
+	min-height: 500px;
+	background: url('../../assets/images/heroBg.svg') no-repeat center/cover fixed;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}

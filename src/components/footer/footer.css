@@ -1,0 +1,11 @@
+.footer {
+  margin-top: 100px;
+  width: 100%;
+  min-height: 378px;
+  background: url('/src/assets/images/footer.png') no-repeat center/cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,14 @@
+.innerFooter {
+  width: 100%;
+  min-height: 89px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  background: url('/src/assets/images/innerFooter.png') no-repeat center/cover;
+  z-index: 20;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
