@@ -1,10 +1,16 @@
 import { RECENTCARD } from '../../../static'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const Recentcard = () => {
+  AOS.init({
+    duration: 300,
+  })
   return (
     <>
       {RECENTCARD.map((i) => (
         <article
+          data-aos="zoom-out-up"
           className="min-h-[350px] sm:min-h-[350px] md:min-h-[300px] bg-white shadow-sm relative"
           key={i.id}
         >

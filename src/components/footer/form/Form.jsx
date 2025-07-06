@@ -10,7 +10,7 @@ const Form = () => {
       />
       <button
         type="button"
-        className="bg-[#F8F8F890] px-[22px] sm:px-[44px] h-full rounded-tr-sm rounded-r-sm"
+        className="bg-[#F8F8F890] px-[22px] sm:px-[44px] h-full rounded-tr-sm rounded-r-sm hover:bg-mainColor duration-300"
       >
         Submit
       </button>

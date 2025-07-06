@@ -1,9 +1,16 @@
 import { POSTCARD } from '../../../static'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 const Postcard = () => {
+  AOS.init({
+    duration: 400,
+  })
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-5 py-1.5">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-5 py-1.5 overflow-hidden">
       {POSTCARD?.map((i) => (
         <article
+          data-aos="zoom-in"
           className="bg-gray-400 bg-[url(/src/assets/images/postcardbg2.svg)] bg-no-repeat bg-cover bg-center min-h-[280px] rounded-xs p-5 flex flex-col items-start justify-end text-white relative"
           key={i.id}
         >
